@@ -10,6 +10,11 @@ body {
 
 }
 
+a {
+  text-decoration:none; 
+  color: #123456;
+}
+
 
 
 /*点滅*/
@@ -33,7 +38,7 @@ body {
 
 
 header {
-  padding:10px;
+  padding:15px;
   background: #123456;
 }
 
@@ -66,10 +71,10 @@ header {
   cursor: pointer;
 }
 #nav-open span:before {
-  bottom: -12px;
+  bottom: -10px;
 }
 #nav-open span:after {
-  bottom: -24px;
+  bottom: -20px;
 }
 
 /*閉じる用の薄黒箇所*/
