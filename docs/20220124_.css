@@ -1,3 +1,19 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color:#123456;
+  background-image:url("image/GoldenRatio_F4E3E0.png"), url("image/GoldenRatio_F4E3E0_bottom.png");
+  background-repeat: no-repeat;
+  background-position:75% 20%, right 15% bottom;
+  background-size:auto 30%, 50% auto;
+
+}
+
+
+
+
+
 .blink_paragraph {
 	animation: blinkEffect 1s ease-in-out infinite alternate;
 
@@ -79,7 +95,7 @@ header {
   width: 90%;
   max-width: 330px;/*最大幅（お好みで調整を）*/
   height: 100%;
-  background: #F4E3E0;
+  background: #edcac5;
   transition: .3s ease-in-out;
   -webkit-transform: translateX(-105%);
   transform: translateX(-105%);
