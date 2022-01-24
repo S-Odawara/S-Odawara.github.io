@@ -3,17 +3,16 @@ body {
   width: 100vw;
   height: 100vh;
   background-color:#123456;
-  background-image:url("image/GoldenRatio_F4E3E0.png"), url("image/GoldenRatio_F4E3E0_bottom.png");
+  background-image:url("image/GoldenRatio_edcac5.png"), url("image/GoldenRatio_EDCAC5_bottom.png");
   background-repeat: no-repeat;
   background-position:75% 20%, right 15% bottom;
-  background-size:auto 30%, 50% auto;
+  background-size:auto 30%, auto 30%;
 
 }
 
 
 
-
-
+/*点滅*/
 .blink_paragraph {
 	animation: blinkEffect 1s ease-in-out infinite alternate;
 
@@ -29,6 +28,10 @@ body {
     opacity: 1;
   }
 }
+/**************************/
+
+
+
 header {
   padding:10px;
   background: #123456;
@@ -42,8 +45,6 @@ header {
 .nav-unshown {
   display:none;
 }
-
-
 
 /*アイコンのスペース*/
 #nav-open {
@@ -65,10 +66,10 @@ header {
   cursor: pointer;
 }
 #nav-open span:before {
-  bottom: -8px;
+  bottom: -12px;
 }
 #nav-open span:after {
-  bottom: -16px;
+  bottom: -24px;
 }
 
 /*閉じる用の薄黒箇所*/
