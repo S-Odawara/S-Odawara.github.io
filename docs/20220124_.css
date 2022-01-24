@@ -5,8 +5,8 @@ body {
   background-color:#123456;
   background-image:url("image/GoldenRatio_F4E3E0.png"), url("image/GoldenRatio_F4E3E0_bottom.png");
   background-repeat: no-repeat;
-  background-position:75% 20%, right 10% bottom;
-  background-size:20% auto, 60% auto;
+  background-position:75% 20%, right 15% bottom;
+  background-size:auto 30%, 50% auto;
 
 }
 
