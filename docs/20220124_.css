@@ -43,7 +43,7 @@ header {
   height: 3px;/*線の太さ*/
   width: 25px;/*長さ*/
   border-radius: 3px;
-  background: #fff000;
+  background: #ffffff;
   display: block;
   content: '';
   cursor: pointer;
@@ -113,3 +113,8 @@ header {
 /*ロゴやサイトタイトルをセンタリング*/
 .logo-area{text-align:center;margin:auto;}
 
+@media screen and (min-width:767px) {
+  #nav-drawer {
+    display:none;
+  }
+}
