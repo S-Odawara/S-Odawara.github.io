@@ -3,10 +3,10 @@ body {
   width: 100vw;
   height: 100vh;
   background-color:#123456;
-  background-image:url("image/GoldenRatio_F4E3E0.png") ;
+  background-image:url("image/GoldenRatio_F4E3E0.png"), url("image/GoldenRatio_F4E3E0_bottom.png");
   background-repeat: no-repeat;
-  background-position:75% 10%;
-  background-size:20%;
+  background-position:75% 20%, right 10% bottom;
+  background-size:20% auto, 60% auto;
 
 }
 
