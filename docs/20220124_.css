@@ -1,5 +1,8 @@
 .blink_paragraph {
 	animation: blinkEffect 1s ease-in-out infinite alternate;
+
+  position: relative;
+  top: 40px; left: 40px;
   }
 
 @keyframes blinkEffect {
