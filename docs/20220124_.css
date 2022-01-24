@@ -43,7 +43,7 @@ header {
   height: 3px;/*線の太さ*/
   width: 25px;/*長さ*/
   border-radius: 3px;
-  background: #ffffff;
+  background: #fff000;
   display: block;
   content: '';
   cursor: pointer;
