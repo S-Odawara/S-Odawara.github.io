@@ -157,7 +157,8 @@ header {
  /* animation: blinkEffect 1s ease-in-out infinite alternate;*/
 
   position: relative;
-  top: 40px; left: 40px;
+  top: 60px;
+  left: 40px;
 
   color: #ffffff;
   font-family: sans-serif;
@@ -179,10 +180,11 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   background: none;
+
 }
  
 .ABC{
-  margin: 10vw;
+  margin: 5%;
 }
 
 img.iconsize {
