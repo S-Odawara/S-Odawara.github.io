@@ -154,6 +154,7 @@ header {
   height: 90vh;
 
  /* animation: blinkEffect 1s ease-in-out infinite alternate;*/
+
   position: relative;
   top: 40px; left: 40px;
 
@@ -184,8 +185,8 @@ header {
 }
 
 img.iconsize {
-  width: 10vh;
-  height: 10vh;
+  width: 100px;
+  height: 100px;
   }
 
  footer{
