@@ -135,6 +135,7 @@ header {
  
 .nav-drawer-big{
   background: #edcac5;
+
   width: 100%;
   max-width: 330px;/*最大幅（お好みで調整を）*/
   height: 95vh;
@@ -181,12 +182,12 @@ header {
 }
  
 .ABC{
-  margin: 1em;
+  margin: 10vw;
 }
 
 img.iconsize {
-  width: 100px;
-  height: 100px;
+  width: 10vw;
+  height: 10vw;
   }
 
  footer{
