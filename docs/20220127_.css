@@ -147,7 +147,7 @@ header {
 
 
 .normal_paragraph {
-  background: none;
+  background: #000;
   width: 80vw;
   max-width: 600px;
   height: 300px;
