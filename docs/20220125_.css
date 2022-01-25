@@ -1,5 +1,5 @@
 a {
-  color: #123456;
+  color: #ffffff;
 }
 
 
@@ -7,13 +7,13 @@ body {
   margin: 0;
   width: 100vw;
   height: 100vh;
-  background-color:#123456;
-  background-image:url("image/GoldenRatio_edcac5.png"), url("image/GoldenRatio_EDCAC5_bottom.png");
+  background-color:#ffffff;
+  background-image:url("image/GoldenRatio_FF3300.png"), url("image/GoldenRatio_FF3300_bottom.png");
   background-repeat: no-repeat;
   background-position:75% 20%, right 15% bottom 0%;
   background-size:auto 30%, auto 30%;
   background-attachment: fixed;
-  color: #ffffff;
+  color: #123456;
   font-size: 10;
   font-family: sans-serif;
 }
@@ -23,7 +23,7 @@ body {
 
 header {
   padding:15px;
-  background: #123456;
+  background: #ffffff;
 }
 
 #nav-drawer {
@@ -49,7 +49,7 @@ header {
   height: 3px;/*線の太さ*/
   width: 25px;/*長さ*/
   border-radius: 3px;
-  background: #ffffff;
+  background: #123456;
   display: block;
   content: '';
   cursor: pointer;
@@ -85,7 +85,7 @@ header {
   width: 90%;
   max-width: 330px;/*最大幅（お好みで調整を）*/
   height: 100%;
-  background: #edcac5;
+  background: #123456;
   transition: .3s ease-in-out;
   -webkit-transform: translateX(-105%);
   transform: translateX(-105%);
@@ -133,7 +133,7 @@ header {
  }
 
 .nav-drawer-big{
-  background: #edcac5;
+  background: #123456;
   width: 100%;
   max-width: 330px;/*最大幅（お好みで調整を）*/
   height: 95vh;
@@ -156,7 +156,7 @@ header {
   position: relative;
   top: 40px; left: 40px;
 
-  color: #ffffff;
+  color: #123456;
   font-family: sans-serif;
   font-size: 50px;
 
