@@ -134,7 +134,7 @@ header {
 
 .nav-drawer-big{
   background: #123456;
-  width: 100%;
+  width: 100vw;
   max-width: 330px;/*最大幅（お好みで調整を）*/
   height: 95vh;
 }
