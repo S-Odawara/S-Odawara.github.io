@@ -149,8 +149,8 @@ header {
 /*点滅*/
 .blink_paragraph {
   background: none;
-  width: auto;
-  height: 500px;
+  width: 85vw;
+  height: 80vh;
 
   animation: blinkEffect 1s ease-in-out infinite alternate;
   position: relative;

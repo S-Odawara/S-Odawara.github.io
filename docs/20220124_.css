@@ -2,7 +2,7 @@ a {
   color: #123456;
 }
 
-
+/*背景色・背景画像*/
 body {
   margin: 0;
   width: 100vw;
@@ -151,18 +151,18 @@ header {
 /*点滅*/
 .blink_paragraph {
   background: none;
-  width: 70%;
-  height: 90vh;
+  width: 85vw;
+  height: 80vh;
 
  /* animation: blinkEffect 1s ease-in-out infinite alternate;*/
 
   position: relative;
-  top: 60px;
+  top: 40px;
   left: 40px;
 
   color: #ffffff;
   font-family: sans-serif;
-  font-size: 30px;
+  font-size: 50px;
 
 }
 
