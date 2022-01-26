@@ -136,7 +136,7 @@ header {
 .nav-drawer-big{
   background: #edcac5;
 
-  width: 100%;
+  width: 100vw;
   max-width: 330px;/*最大幅（お好みで調整を）*/
   height: 95vh;
 }
@@ -152,6 +152,7 @@ header {
 .blink_paragraph {
   background: none;
   width: 85vw;
+  max-width: 700px;
   height: 80vh;
 
  /* animation: blinkEffect 1s ease-in-out infinite alternate;*/
