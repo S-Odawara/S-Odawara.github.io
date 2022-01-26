@@ -148,9 +148,9 @@ header {
 
 .normal_paragraph {
   background: none;
-  width: 80vw;
-  max-width: 600px;
-  height: 300px;
+  width: 85vw;
+  max-width: 700px;
+  height: 80vh;
 
   position: relative;
   top: 50px; left: 40px;
