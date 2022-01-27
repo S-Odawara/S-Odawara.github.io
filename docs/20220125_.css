@@ -18,6 +18,11 @@ body {
   font-family: sans-serif;
 }
 
+.page-layout {
+  display: grid;
+  grid-template: "header" auto "contents" 1fr "footer" auto/100%;
+  min-height: 100vh;
+}
 
 /**************************/
 
