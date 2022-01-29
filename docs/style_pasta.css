@@ -143,6 +143,7 @@ header {
 }
 
 ul{
+/*  background: #ffffffaa; */
   list-style-type: none;
   width: 100%;
   padding-right: 40px;
