@@ -155,15 +155,6 @@ ul{
 }
 
 
-.menu{
-  flex-basis: 100%;
-  text-align: center;
-  font-family: serif;
-  line-height: 1.3em;
-
-}
-
-
 .main{
   background: none;
   display: flex;
@@ -172,7 +163,20 @@ ul{
   gap: 50px 50px;
   font-family: serif;
   padding-top: 30px;
- }
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.menu{
+  flex-basis: 100%;
+  text-align: center;
+  font-family: serif;
+  line-height: 1.3em;
+  font-size: 120%;
+}
+
+
 
  .pasta {
   background: none;
