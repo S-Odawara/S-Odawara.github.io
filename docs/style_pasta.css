@@ -173,7 +173,7 @@ ul li{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 80px 80px;
+  gap: 60px 60px;
   font-family: serif;
  }
 
@@ -181,9 +181,12 @@ ul li{
   background: none;
   background: none; 
 	width:			80vw;
-  max-width: 500px;
+  max-width:480px;
+/*  max-width: 500px;*/
+
   height: auto;
-  max-height: 281.25px;
+  max-height: 270px;
+/*  max-height: 281.25px;*/
 	height: auto;
 	overflow:	hidden;
 
