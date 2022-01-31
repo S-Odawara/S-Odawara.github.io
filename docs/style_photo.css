@@ -1,0 +1,218 @@
+a {
+  color: #f0f0f0;
+}
+
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color:#f0f0f0;
+  background-image:url("image/GoldenRatio_EDCAC5.png"), url("image/GoldenRatio_EDCAC5_bottom.png");
+  background-repeat: no-repeat;
+  background-position:75% 20%, right 15% bottom 0%;
+  background-size:auto 30vh, auto 30vh;
+  background-attachment: fixed;
+  color: #333333;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+
+/**************************/
+
+header {
+  padding:15px;
+  background: #f0f0f0;
+}
+
+#nav-drawer {
+  position: relative;
+}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display:none;
+}
+
+/*アイコンのスペース*/
+#nav-open {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+/*ハンバーガーの形をCSSで表現*/
+#nav-open span, #nav-open span:before, #nav-open span:after {
+  position: absolute;
+  height: 3px;/*線の太さ*/
+  width: 25px;/*長さ*/
+  border-radius: 3px;
+  background: #333333;
+  display: block;
+  content: '';
+  cursor: pointer;
+}
+#nav-open span:before {
+  bottom: -10px;
+}
+#nav-open span:after {
+  bottom: -20px;
+}
+
+/*閉じる用の薄黒箇所*/
+#nav-close {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+/*メニューの中身*/
+#nav-content {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 90%;
+  max-width: 330px;/*最大幅（お好みで調整を）*/
+  height: 100%;
+  background: #333333;
+  transition: .3s ease-in-out;
+  -webkit-transform: translateX(-105%);
+  transform: translateX(-105%);
+}
+
+/*チェックがついたら表示させる*/
+#nav-input:checked ~ #nav-close {
+  display: block;
+  opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
+
+.header-logo-menu{
+ display: flex;
+ display: -moz-flex;
+ display: -o-flex;
+ display: -webkit-flex;
+ display: -ms-flex;
+ flex-direction: row;
+ -moz-flex-direction: row;
+ -o-flex-direction: row;
+ -webkit-flex-direction: row;
+ -ms-flex-direction: row;
+}
+
+/*ロゴやサイトタイトルをセンタリング*/
+.logo-area{text-align:center;margin:auto;}
+
+@media screen and (min-width:767px) {
+  #nav-drawer {
+    display:none;
+  }
+}
+
+
+/**************************/
+
+.outline{
+  background: none;
+  text-align: center;
+  margin: 0 auto;
+
+  line-height: 2;
+  font-size: 24px;
+  font-family: serif;
+}
+
+.outline a{
+  text-decoration: underline overline #e68475;
+  color: #333333;
+}
+
+
+.main{
+  columns: 3 ;
+  background: none;
+  width: 100%;
+  max-height: 5000px;
+  padding: 30px 10% 50px 10%;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  gap: 10px;
+}
+/*
+  justify-content: center;
+  */
+/*
+  flex-direction: row;
+  justify-content: center;
+
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+*/
+
+/*
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+
+
+  gap: 10px 10px;
+  font-family: serif;
+  padding: 30px 120px 50px 120px;
+
+}
+*/
+
+
+ .photo {
+  background: none; 
+  width: auto;
+  max-width:4300px;
+	height: auto;
+
+	overflow:	hidden;
+	position:		relative;	/* 相対位置指定 */
+  margin: 0 auto;
+}
+
+.photo img{
+  width: 100%;
+  height: auto;
+
+  }
+
+
+
+
+
+
+ footer{
+  background: none;
+  position: relative;
+  bottom: 0%;
+  width: 100%;
+  height: 150px;
+}
+
+
+/**************************/
