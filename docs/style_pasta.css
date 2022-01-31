@@ -180,8 +180,10 @@ ul{
   background: none; 
 	width:			80vw;
   max-width:352px;
+/*  max-width:352px;*/
   height: auto;  
   max-height: 198px;
+/*  max-height: 198px;*/
 	overflow:	hidden;
 	position:		relative;	/* 相対位置指定 */
   box-shadow: 0px 0px 20px -5px #000000;
