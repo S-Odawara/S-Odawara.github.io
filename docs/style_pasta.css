@@ -223,9 +223,8 @@ ul{
 
 
 
- footer{
+footer{
   background: #123456;
-  color: #fff;
 
   text-align: center;
   font-size: 16px;
@@ -238,6 +237,7 @@ ul{
   bottom: 0; 
   left: 0; 
 }
+
 
 
 /**************************/
