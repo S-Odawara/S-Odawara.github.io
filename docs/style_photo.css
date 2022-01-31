@@ -145,7 +145,7 @@ header {
 
 
 .main{
-  columns: 3 ;
+  columns: 3;
   background: none;
   width: 100%;
   max-height: 5000px;
@@ -154,34 +154,9 @@ header {
   text-align: center;
   box-sizing: border-box;
   gap: 10px;
-}
-/*
-  justify-content: center;
-  */
-/*
-  flex-direction: row;
-  justify-content: center;
-
-	-webkit-box-align: start;
-	-ms-flex-align: start;
-	align-items: flex-start;
-*/
-
-/*
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-flex-direction: column;
-  flex-direction: column;
-
-
-  gap: 10px 10px;
-  font-family: serif;
-  padding: 30px 120px 50px 120px;
 
 }
-*/
+
 
 
  .photo {
