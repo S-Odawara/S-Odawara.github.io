@@ -179,10 +179,10 @@ ul{
   background: none;
   background: none; 
 	width:			80vw;
-  max-width:352px;
+  max-width:400px;
 /*  max-width:352px;*/
   height: auto;  
-  max-height: 198px;
+  max-height: 225px;
 /*  max-height: 198px;*/
 	overflow:	hidden;
 	position:		relative;	/* 相対位置指定 */
