@@ -200,10 +200,10 @@ ul{
  .pasta {
   background: none; 
 	width:			80vw;
-  max-width:320px;
+  max-width:300px;
 /*  max-width:352px;*/
   height: auto;  
-  max-height: 320px;
+  max-height: 300px;
 /*  max-height: 198px;*/
 	overflow:	hidden;
 	position:		relative;	/* 相対位置指定 */
