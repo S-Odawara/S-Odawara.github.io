@@ -188,13 +188,12 @@ ul{
   flex-basis: 100%;
   text-align: center;
   font-family: serif;
-  line-height: 1.3em;
+  line-height: 2em;
   font-size: 120%;
 }
 
 
  .pasta {
-  background: none;
   background: none; 
 	width:			80vw;
   max-width:400px;
@@ -235,8 +234,37 @@ ul{
 	opacity:		1;	/* マスクを表示する */
 }
 
+.sauce_menu{
+  flex-basis: 100%;
+  text-align: center;
+  font-family: serif;
+  line-height: 2em;
+  font-size: 120%;
+}
 
+.pastasauce {
+  background: none; 
+	width:			70vw;
+  max-width:300px;
+  height: auto;  
+  max-height: 225px;
+	overflow:	hidden;
+	position:		relative;	/* 相対位置指定 */
+  box-shadow: 0px 0px 20px -5px #000000;
+}
 
+.pastasauce img{
+  width: 100%;
+  height: 100%;
+}
+
+.pastasauce_explain{
+  background: none; 
+  padding-top: 10px;
+	width:			55vw;
+  max-width:500px;
+  font-size: 80%;
+}
 
 footer{
   background: #123456;
