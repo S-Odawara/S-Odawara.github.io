@@ -144,6 +144,7 @@ header {
   margin: 0 auto;
   padding-top: 20vh;
   padding-bottom: 45vh;
+  padding-left: 10px;
 
   animation: blinkEffect 3s ease-in-out infinite alternate;
   position: relative;
@@ -167,6 +168,8 @@ header {
 }
 
 .par{
+
+
   -webkit-writing-mode: vertical-rl;
   -moz-writing-mode: vertical-rl;
   -ms-writing-mode: tb-rl;
@@ -176,6 +179,8 @@ header {
   display: inline-block;
 
   text-align: left;
+
+
 }
 
 
