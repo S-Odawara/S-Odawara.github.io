@@ -162,6 +162,7 @@ ul{
 
 .outline :hover {
 	text-decoration: none;
+
 }
 
 .outline_2{
@@ -244,13 +245,13 @@ ul{
   justify-content: center;
   font-family: serif;
 
-  background: #ebdede77;
-  gap: 1em;
+  background: #c2b0ab54;
+  gap: 1.5em;
   margin-left: 15%;
   margin-right: 15%;
 
   border-style: double;
-  border-color: #dab5b5;
+  border-color: #421111;
   border-width: 5px;
 
   padding-top: 20px;
@@ -263,6 +264,7 @@ ul{
   flex-basis: 100%;
   text-align: center;
   font-family: serif;
+  color : #421111;
   line-height: 2em;
   font-size: 120%;
 }
@@ -285,7 +287,8 @@ ul{
 
 .pastasauce_explain{
   background: none; 
-  padding: 10px 20px 10px 20px;
+  color : #421111;
+  padding: 10px 0px 10px 0px;
   
 	width:			60vw;
   max-width: 400px;
@@ -294,8 +297,8 @@ ul{
 }
 
 .pastasauce_explain a{
-  text-decoration:underline#123456;
-  color: #333333;
+  text-decoration:underline#421111;
+  color : #421111;
   font-size: 120%;
 }
 
