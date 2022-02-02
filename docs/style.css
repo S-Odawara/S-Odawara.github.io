@@ -143,7 +143,7 @@ header {
 
   margin: 0 auto;
   padding-top: 20vh;
-  padding-bottom: 30vh;
+  padding-bottom: 45vh;
 
   animation: blinkEffect 3s ease-in-out infinite alternate;
   position: relative;
@@ -151,7 +151,7 @@ header {
 
   color: #ffffff;
   font-family: serif;
-  font-size: 50px;
+  font-size: 40px;
 
   text-align: center;
 
