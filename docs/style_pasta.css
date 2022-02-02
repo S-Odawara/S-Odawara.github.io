@@ -132,14 +132,53 @@ header {
 
 /**************************/
 
+
+.outline_0 {
+  background: none;
+  width: 90vw;
+
+  margin: 0 auto;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+
+  position: relative;
+  color: #333333;
+  font-family: serif;
+  font-size: 50px;
+  text-align: center;
+
+}
+
+@keyframes blinkEffect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.par{
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -ms-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+
+  display: inline-block;
+
+  text-align: left;
+}
+
 .outline{
   background: none;
   text-align: center;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top: 0px;
+/*  padding-top: 70px;*/
   padding-bottom: 100px;
   line-height: 2;
-  font-size: 24px;
+
   font-family: serif;
 
   -ms-writing-mode: tb-rl;
@@ -156,7 +195,7 @@ ul{
   width: 100%;
   padding-bottom: 50px;
   box-sizing: border-box; 
-  font-size: 18px;
+  font-size: 24px;
 }
 
 
