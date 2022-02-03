@@ -10,7 +10,7 @@ body {
   height: auto;
   background-color:#123456;
 
-  background-image:url("image/GoldenRatio_EDCAC5.png"), url("image/GoldenRatio_EDCAC5_bottom.png");
+  background-image:url("../image/GoldenRatio_EDCAC5.png"), url("../image/GoldenRatio_EDCAC5_bottom.png");
   background-repeat: no-repeat;
   background-position:75% 20%, right 15% bottom 0%;
   background-size:auto 30vh, auto 30vh;
