@@ -209,16 +209,15 @@ header {
 }
 
 .content{
-  background: #d3c087aa;
-  box-shadow:#d3c087 0px 0px 40px 3px;
-  -webkit-box-shadow:#d3c087 0px 0px 40px 3px;
-  -moz-box-shadow:#d3c087 0px 0px 40px 3px;
+  background: #ffeeeeaa;
+  box-shadow:#ffeeee 0px 0px 40px 3px;
+  -webkit-box-shadow:#ffeeee 0px 0px 40px 3px;
+  -moz-box-shadow:#ffeeee 0px 0px 40px 3px;
 
-  width:  50vw;
-  max-width: 400px;
-  height: 50vw;
+  width:  5vw;
+  height: 5vw;
   position: relative;
-  border-radius: 10%;/*角丸*/
+  border-radius: 50%;/*角丸*/
 
 }
 
