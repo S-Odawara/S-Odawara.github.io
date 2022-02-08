@@ -185,15 +185,17 @@ header {
 
 
 .main{
+
   display: flex;
   flex-flow: row wrap;
   gap: 5vw 5vw;
 
-  width: 75vw;
+  width: 100%;
 
   margin: 0 auto;
-  padding:100px 10px 100px 10px;
+  padding:10px 10px 100px 10px;
   box-sizing: border-box;
+  justify-content: center;
 
   /*
   background: #ffffff70;
@@ -202,26 +204,39 @@ header {
   -webkit-box-shadow:#ffffff 0px 0px 40px 3px;
   -moz-box-shadow:#ffffff 0px 0px 40px 3px;
   */
-  justify-content: center;
 
-  border-radius: 5%;/*角丸*/
+  text-align: center;
+
 
 }
 
 .content{
-  background: #d3c087aa;
-  box-shadow:#d3c087 0px 0px 40px 3px;
-  -webkit-box-shadow:#d3c087 0px 0px 40px 3px;
-  -moz-box-shadow:#d3c087 0px 0px 40px 3px;
+  background: #ffeeeeaa;
+  box-shadow:#ffeeee 0px 0px 40px 3px;
+  -webkit-box-shadow:#ffeeee 0px 0px 40px 3px;
+  -moz-box-shadow:#ffeeee 0px 0px 40px 3px;
 
-  width:  50vw;
-  max-width: 400px;
-  height: 50vw;
+  width:  10vw;
+  height: auto;
   position: relative;
-  border-radius: 10%;/*角丸*/
+  border-radius: 50%;/*角丸*/
 
+
+  color: #ffffff;
+  font-family: serif;
+  font-size: 120%;
+
+
+  -webkit-writing-mode: vertical-rl;
+  -moz-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  -ms-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+
+  display: inline-block;
+
+  text-align: left;
 }
-
 
 
 /**************************/
