@@ -1,0 +1,395 @@
+@charset 'UTF-8'; /* 文字コードの指定 */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+
+/* Base
+------------------------------------------------------------*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Noto Sans JP', '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    letter-spacing: .1em;
+    color: #ffffff;
+    background-color: #071e3d;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+small {
+    font-size: 1.2rem;
+}
+
+/* Header
+------------------------------------------------------------*/
+.header {
+    display: flex;
+}
+.sp-nav {
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    display: none;
+    z-index: 1000;
+    width: 100%;
+    background-color: #071e3d;
+    opacity: .9;
+}
+.sp-nav-list {
+    width: 80%;
+    padding: 0 10%;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 2.8rem;
+    text-align: left;
+    list-style: none;
+}
+.sp-nav-list li {
+    margin-bottom: 1rem;
+}
+.header-main-img {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background-image: url("../images/main.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-button,
+.cart-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    padding: 1.4rem;
+    font-size: 2rem;
+    line-height: 0;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #071e3d;
+}
+.nav-button {
+    top: 1.5rem;
+    right: 1.5rem;
+}
+.catch {
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 2.4rem;
+    font-weight: 500;
+    letter-spacing: .3rem;
+    text-align: left;
+    color: #071e3d;
+}
+.cart-button {
+    top: 1.5rem;
+    left: 1.5rem;
+}
+.mainlogo {
+    padding: 1.4rem;
+    margin-top: 2rem;
+    font-size: 2.8rem;
+    font-family: 'Noto Serif JP', serif;
+    line-height: 0;
+    text-align: center;
+    color: #071e3d;
+}
+.horizon-line {
+    position: absolute;
+    bottom: 3.5rem;
+    left: 50%;
+    width: 1px;
+    height: calc(20% - 5rem);
+    background-color: #071e3d;
+}
+.scroll {
+    position: absolute;
+    bottom: 1.5rem;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #071e3d;
+}
+
+/* Contents共通
+------------------------------------------------------------*/
+
+section {
+    padding: 4rem 0;
+}
+
+section .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section h2 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 2.4rem;
+    letter-spacing: 0.3rem;
+    color: #ffffff;
+}
+
+.carousel div img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section p {
+    font-size: 1.6rem;
+}
+
+.slick-dots {
+    bottom: -3.5rem;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 8rem;
+}
+
+.slick-dots li button:before {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #a8a698;
+    opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+    width: 2.5rem;
+    height: 2.5rem;
+    color: #555555;
+    opacity: 1;
+}
+
+.button-konyu {
+    position: relative;
+    display: block;
+    width: 18rem;
+    padding: 2rem 5%;
+    margin: 2rem auto;
+    font-size: 1.6rem;
+    color: #ffffff;
+    border: 1px #ffffff solid;
+    background: #0e3466;
+    transition: .3s;
+    text-align: center;
+}
+
+.button-konyu::before {
+    position: absolute;
+    top: 50%;
+    right: 1.8rem;
+    display: block;
+    width: 2.8rem;
+    height: .8rem;
+    color: inherit;
+    border-top: solid 1px;
+    content: "";
+}
+
+.button-konyu::after {
+    position: absolute;
+    top: calc(50% - .2rem);
+    right: 1.4rem;
+    display: block;
+    width: 1.8rem;
+    height: 1.8rem;
+    color: inherit;
+    border-right: solid 1px;
+    content: "";
+    transform: rotate(-45deg) translateY(-50%);
+}
+
+
+/* Concept
+------------------------------------------------------------*/
+
+.concept-box {
+    width: 100%;
+}
+
+.concept-box img {
+    width: 100%;
+}
+
+/* Products
+------------------------------------------------------------*/
+
+.products-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 3rem;
+}
+
+.products-title h3 {
+    display: inline-block;
+    margin: 0;
+    font-size: 2.4rem;
+    line-height: 3rem;
+}
+
+.products-title span {
+    display: inline-block;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+/* Gallery
+------------------------------------------------------------*/
+.gallery-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.gallery-box-full {
+    width: 100%;
+}
+.gallery-box-full img {
+    width: 100%;
+}
+.gallery-box-half {
+    width: 49%;
+}
+.gallery-box-half:nth-child(2n+1) {
+    padding: 0 2% 0 0;
+}
+.gallery-box-half img {
+    width: 100%;
+}
+
+/* Footer
+------------------------------------------------------------*/
+
+footer {
+    padding: 3rem 0;
+    background: #01060d;
+    text-align: center;
+}
+
+footer .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer .contact {
+    padding: 0;
+    margin: 3rem 0 4rem 0;
+}
+
+footer .contact li {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+footer .contact li:last-child {
+    margin-right: 0;
+}
+
+footer .contact a {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+    margin: 0 1.5rem 0 0;
+    font-size: 2.7rem;
+    line-height: 0rem;
+    color: #fff;
+    text-align: center;
+    background-color: #071e3d;
+    border-radius: 50%;
+}
+
+footer .contact .cart a {
+    font-size: 2.2rem;
+    line-height: 3rem;
+}
+
+/* PC表示 769px以上
+------------------------------------------------------------*/
+@media (min-width: 769px) {
+    .mainlogo {
+        font-size: 3.4rem;
+    }
+    .nav-button:hover,
+    .cart-button:hover {
+        cursor: pointer;
+        background-color: #1c5095;
+    }
+    section .container {
+        width: 68%;
+        margin: 0 auto;
+    }
+    section h2 {
+        font-size: 4.2rem;
+        text-align: left;
+    }
+    .nopc {
+        display: none;
+    }
+    .sp-nav-list {
+        padding: 0 20%;
+        font-size: 3.4rem;
+        line-height: 7rem;
+        width: 60%;
+        text-align: center;
+    }
+    .catch {
+        font-size: 3.2rem;
+        top: 34%;
+    }
+    .button-konyu {
+        width: 25rem;
+        padding: 2rem 0;
+        margin: 3rem auto;
+    }
+    .button-konyu:hover {
+        background: #1c5095;
+    }
+    #concept .container .button-konyu {
+        margin: 3rem 56% 1.5rem 0%;
+    }
+    #concept .container {
+        display: flex;
+        margin: 3rem auto 0 auto;
+    }
+    #concept .container h2 {
+        display: block;
+        width: 36%;
+        margin: 0;
+    }
+    #concept .container .concept-box {
+        width: 64%;
+    }
+    .gallery-box-half {
+        margin: 1.5rem 0 0 0;
+        width: 24.25%;
+    }
+    .gallery-box-half:nth-child(2n+1),
+    .gallery-box-half {
+        padding: 0 1% 0 0;
+    }
+    .gallery-box-half:last-child {
+        padding: 0 0 0 0;
+    }
+    footer .contact a:hover {
+        background-color: #1c5095;
+    }
+}
