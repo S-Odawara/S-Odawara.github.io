@@ -53,11 +53,9 @@ main {
 ------------------------------------------------------------*/
 
 footer {
-
     padding: 2rem 0;
     background-color: #096194;
     text-align: center;
-
 }
 
 
@@ -79,5 +77,4 @@ footer {
 
 small {
     font-size: 1.0rem;
-
 }
