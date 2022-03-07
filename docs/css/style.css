@@ -2,9 +2,10 @@
 
 body {
     font-family: '游ゴシック', YuGothic, 'メイリオ', 'Noto Sans JP', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-     /*   font-family: 'Hiragino Mincho ProN', 'YuMincho', serif ;
- font-family: '游ゴシック', YuGothic, 'メイリオ', 'Noto Sans JP', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
-   */
+    /*   
+    font-family: 'Hiragino Mincho ProN', 'YuMincho', serif ;
+    font-family: '游ゴシック', YuGothic, 'メイリオ', 'Noto Sans JP', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    */
     font-size: 1.4rem;
     line-height: 1.6;
     letter-spacing: .1em;
@@ -54,7 +55,6 @@ main {
 footer {
 
     padding: 2rem 0;
-
     background-color: #096194;
     text-align: center;
 
