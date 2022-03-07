@@ -1,7 +1,10 @@
 
 
 body {
-    font-family: 'Noto Sans JP', '游ゴシック', YuGothic, 'メイリオ', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+    font-family: '游ゴシック', YuGothic, 'メイリオ', 'Noto Sans JP', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+     /*   font-family: 'Hiragino Mincho ProN', 'YuMincho', serif ;
+ font-family: '游ゴシック', YuGothic, 'メイリオ', 'Noto Sans JP', Verdana, 'Hiragino Kaku Gothic ProN', Meiryo, sans-serif;
+   */
     font-size: 1.4rem;
     line-height: 1.6;
     letter-spacing: .1em;
@@ -49,22 +52,32 @@ main {
 ------------------------------------------------------------*/
 
 footer {
-    padding: 3rem 0;
+
+    padding: 2rem 0;
+
     background-color: #096194;
     text-align: center;
+
 }
 
-.footer-main-img {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    background-image: url("../images/main_01.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.contact {
+    list-style-type:none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 10px;
 }
+
+.contact li {
+    display: inline-block;
+}
+
+.contact i {
+    color: #ffffff;
+}
+
 
 small {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
+
 }
